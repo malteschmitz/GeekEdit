@@ -1,0 +1,5 @@
+[Main]
+OutputDir=C:\Stz\m\daten\ProjekteT61\GeekEdit\source\
+SingleUnit=1
+UseUnitAtDT=0
+FilePrefix=uPSImport

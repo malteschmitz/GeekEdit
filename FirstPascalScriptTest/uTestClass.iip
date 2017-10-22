@@ -1,0 +1,7 @@
+[Main]
+OutputDir=C:\Stz\m\daten\ProjekteT61\GeekEdit\FirstPascalScriptTest\
+SingleUnit=1
+UseUnitAtDT=1
+FilePrefix=uPSImport
+[Files]
+File0=C:\Stz\m\daten\ProjekteT61\GeekEdit\FirstPascalScriptTest\uTestClass.pas

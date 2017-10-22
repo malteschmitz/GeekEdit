@@ -1,0 +1,7 @@
+aspell --lang=de pipe
+
+ein Wort rein
+* = in Wörterbuch
+& = nicht in Wörterbuch; Vorschläge als Komma und Leerzeichen getrennt
+
+aspell muss im Path von Windows sein

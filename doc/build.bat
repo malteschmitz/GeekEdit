@@ -1,0 +1,1 @@
+pasdoc ../source/*.pas -L de -E .

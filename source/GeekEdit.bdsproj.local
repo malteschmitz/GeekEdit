@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009.08.02 10:20:28.706.pas,C:\Dokumente und Einstellungen\m\Eigene Dateien\Borland Studio-Projekte\Unit1.pas=C:\Stz\m\daten\ProjekteT61\GeekEdit\source\frmMain.pas</Transaction>
+    <Transaction>2009.08.02 10:20:28.706.dfm,C:\Dokumente und Einstellungen\m\Eigene Dateien\Borland Studio-Projekte\Unit1.dfm=C:\Stz\m\daten\ProjekteT61\GeekEdit\source\frmMain.dfm</Transaction>
+    <Transaction>2009.08.02 10:20:32.893.bdsproj,C:\Dokumente und Einstellungen\m\Eigene Dateien\Borland Studio-Projekte\Project1.bdsproj=C:\Stz\m\daten\ProjekteT61\GeekEdit\source\GeekEdit.bdsproj</Transaction>
+    <Transaction>2009.08.02 12:25:37.608.pas,C:\Stz\m\daten\ProjekteT61\GeekEdit\source\Unit1.pas=C:\Stz\m\daten\ProjekteT61\GeekEdit\source\uScriptEditor.pas</Transaction>
+    <Transaction>2009.08.02 14:04:10.754.pas,C:\Stz\m\daten\ProjekteT61\GeekEdit\source\Unit1.pas=C:\Stz\m\daten\ProjekteT61\GeekEdit\source\uScriptManager.pas</Transaction>
+    <Transaction>2009.08.04 14:59:13.116.pas,C:\Stz\m\daten\ProjekteT61\GeekEdit\source\Unit1.pas=C:\Stz\m\daten\ProjekteT61\GeekEdit\source\uScriptGui.pas</Transaction>
+    <Transaction>2009.08.04 14:59:34.149.pas,C:\Stz\m\daten\ProjekteT61\GeekEdit\source\Unit1.pas=C:\Stz\m\daten\ProjekteT61\GeekEdit\source\uScriptPrograms.pas</Transaction>
+    <Transaction>2009.08.04 16:03:08.019.pas,C:\Stz\m\daten\ProjekteT61\GeekEdit\source\Unit1.pas=C:\Stz\m\daten\ProjekteT61\GeekEdit\source\uScriptEditorItem.pas</Transaction>
+    <Transaction>2009.08.04 17:25:18.966.pas,C:\Stz\m\daten\ProjekteT61\GeekEdit\source\uScriptGui.pas=C:\Stz\m\daten\ProjekteT61\GeekEdit\source\uScriptTools.pas</Transaction>
+    <Transaction>2009.08.04 22:21:53.295.pas,C:\Stz\m\daten\ProjekteT61\GeekEdit\source\Unit1.pas=C:\Stz\m\daten\ProjekteT61\GeekEdit\source\uIO.pas</Transaction>
+    <Transaction>2009.08.04 23:32:52.518.pas,C:\Stz\m\daten\ProjekteT61\GeekEdit\source\uLineBreak.pas=</Transaction>
+    <Transaction>2009.08.05 22:50:47.357.pas,C:\Stz\m\daten\ProjekteT61\GeekEdit\source\Unit1.pas=C:\Stz\m\daten\ProjekteT61\GeekEdit\source\uViewManager.pas</Transaction>
+    <Transaction>2009.08.06 13:54:57.875.pas,C:\Stz\m\daten\ProjekteT61\GeekEdit\source\Unit1.pas=C:\Stz\m\daten\ProjekteT61\GeekEdit\source\uScriptInterfaces.pas</Transaction>
+    <Transaction>2009.08.06 14:45:13.265.pas,C:\Stz\m\daten\ProjekteT61\GeekEdit\source\uScriptTools.pas=</Transaction>
+    <Transaction>2009.08.07 22:55:02.747.pas,C:\Stz\m\daten\ProjekteT61\GeekEdit\source\Unit1.pas=C:\Stz\m\daten\ProjekteT61\GeekEdit\source\uToolsManager.pas</Transaction>
+    <Transaction>2009.08.09 20:20:57.875.pas,C:\Stz\m\daten\ProjekteT61\GeekEdit\source\Unit1.pas=C:\Stz\m\daten\ProjekteT61\GeekEdit\source\frmRadioGroup.pas</Transaction>
+    <Transaction>2009.08.09 20:20:57.875.dfm,C:\Stz\m\daten\ProjekteT61\GeekEdit\source\Unit1.dfm=C:\Stz\m\daten\ProjekteT61\GeekEdit\source\frmRadioGroup.dfm</Transaction>
+    <Transaction>2009.08.09 20:43:06.718.pas,C:\Stz\m\daten\ProjekteT61\GeekEdit\source\frmRadioGroup.pas=C:\Stz\m\daten\ProjekteT61\GeekEdit\source\frmRadio.pas</Transaction>
+    <Transaction>2009.08.09 20:43:06.718.dfm,C:\Stz\m\daten\ProjekteT61\GeekEdit\source\frmRadioGroup.dfm=C:\Stz\m\daten\ProjekteT61\GeekEdit\source\frmRadio.dfm</Transaction>
+    <Transaction>2009.08.09 22:58:29.490.pas,C:\Stz\m\daten\ProjekteT61\GeekEdit\source\Unit1.pas=C:\Stz\m\daten\ProjekteT61\GeekEdit\source\dlgSearch.pas</Transaction>
+    <Transaction>2009.08.09 22:58:29.490.dfm,C:\Stz\m\daten\ProjekteT61\GeekEdit\source\Unit1.dfm=C:\Stz\m\daten\ProjekteT61\GeekEdit\source\dlgSearch.dfm</Transaction>
+    <Transaction>2009.08.09 22:58:40.381.pas,C:\Stz\m\daten\ProjekteT61\GeekEdit\source\frmRadio.pas=C:\Stz\m\daten\ProjekteT61\GeekEdit\source\dlgRadio.pas</Transaction>
+    <Transaction>2009.08.09 22:58:40.381.dfm,C:\Stz\m\daten\ProjekteT61\GeekEdit\source\frmRadio.dfm=C:\Stz\m\daten\ProjekteT61\GeekEdit\source\dlgRadio.dfm</Transaction>
+    <Transaction>2009.08.09 23:47:01.310.pas,C:\Stz\m\daten\ProjekteT61\GeekEdit\source\Unit1.pas=C:\Stz\m\daten\ProjekteT61\GeekEdit\source\uSearchManager.pas</Transaction>
+    <Transaction>2009.08.10 15:12:10.436.pas,C:\Stz\m\daten\ProjekteT61\GeekEdit\source\Unit1.pas=C:\Stz\m\daten\ProjekteT61\GeekEdit\source\uPrintManager.pas</Transaction>
+    <Transaction>2009.08.10 20:57:44.046.pas,C:\Stz\m\daten\ProjekteT61\GeekEdit\source\Unit1.pas=C:\Stz\m\daten\ProjekteT61\GeekEdit\source\uFindApp.pas</Transaction>
+    <Transaction>2009.09.01 16:44:35.606.pas,C:\Stz\m\daten\ProjekteT61\GeekEdit\source\Unit1.pas=C:\Stz\m\daten\ProjekteT61\GeekEdit\source\dlgDirList.pas</Transaction>
+    <Transaction>2009.09.01 16:44:35.606.dfm,C:\Stz\m\daten\ProjekteT61\GeekEdit\source\Unit1.dfm=C:\Stz\m\daten\ProjekteT61\GeekEdit\source\dlgDirList.dfm</Transaction>
+    <Transaction>2009.09.01 17:21:15.181.pas,C:\Stz\m\daten\ProjekteT61\GeekEdit\source\Unit1.pas=C:\Stz\m\daten\ProjekteT61\GeekEdit\source\uShare.pas</Transaction>
+    <Transaction>2009.09.02 01:13:59.230.pas,C:\Stz\m\daten\ProjekteT61\GeekEdit\source\dlgColor.pas=C:\Stz\m\daten\ProjekteT61\GeekEdit\source\dlgColorEx.pas</Transaction>
+    <Transaction>2009.09.02 01:13:59.230.dfm,C:\Stz\m\daten\ProjekteT61\GeekEdit\source\dlgColor.dfm=C:\Stz\m\daten\ProjekteT61\GeekEdit\source\dlgColorEx.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

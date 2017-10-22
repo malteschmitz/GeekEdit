@@ -1,0 +1,164 @@
+GeekEdit
+========
+
++ ISO-8859-1 ist in Wahrheit "Codepage 1252 (Windows)"
++ HTML mit eingebettetem Ruby braucht HTML-Tastenkürzel
++ HTML mit eingebettetem Ruby nur für .html.erb und .htm.erb Dateien
++ JavaScript mit eingebettetem Ruby für .js.erb Dateien
+
+- Yap schließen, wenn Editor beenden
+
+- Suchen und Ersetzen in Dateien
+  - Auslagern in eine eigene Anwendung, die per Parameter mit den
+    Werten gestartet wird und das Ergebnis, sowie eine eigene Eingabemaske
+    anzeigt.
+  - Parameter --single-instance, -1 zusammen mit Dateinamen
+    --> prüft, ob Dateiname geöffnet und geht dann zur offenen Datei
+  - Parameter LLL:PPP nach Dateinamen springt zur angegebenen Zeilennummer LLL
+    und der angegebenen Spalte PPP. :PPP kann weggelassen werden
+    --> zusammen mit --single-instance weitergabe der Zeilennummer an
+        das richtige Fenster!
+  - kann auch für Inverse DVI Search verwendet werden
+
+
+- automatisches Einrücken in die richtige Ebene bei Strg+C
+
+- schlaue Tastenkombinationen für LaTeX
+  + Bruch \frac{}{}
+  + Formel \[  \]
+  + Klammernpaare (+Shift = mit \left und \right)
+    + geschweifte Klammern \{\}
+    + runde Klammern ()
+    + eckige Klammern []
+    + spitze Klammern \langle \rangle
+    + Betrag \| \|
+  + Formel \begin{align}  \end{align}
+  + Listengerippe \begin{enumerate}\item  \end{enumerate}
+  + Listenpunkt mit Strg+.
+  + Vektoren \vec
+  + Vektoren \begin{pmatrix}  \end{pmatrix}
+  - neue Seite wie bei neuem HTML-Dokument mit Auswahl der exercise.tex-Optionen
+  + Deploy-Anwendung
+    + dazu neu GeekEdit.bat im Programmverzeichnis anlegen und callen mit
+      ersten Parameter deploy und zweitem Parameter Dateinamen
+
+- Konzept-Idee: mit Magie (Artikel in DP oder DSDT) sicherstellen, dass immer
+  nur EINE Instanz von GeekEdit läuft. Alle Fenster sind also nur neue MainForm
+  Instanzen im gleichen Prozess. Dann möglich
+    - recent files über alle Instanzen --> aber wo speichern? bisher speichert
+                                                              GeekEdit NICHTS!
+    - Unterscheidung zwischen Beenden (Exit) und Schließen (Close)
+    - Suchen und Ersetzen über mehre Fenster, denn ich weiß dann, welche Dateien
+      offen sind
+    - Fenster aller offenen Dateien
+    - Schlauere Behandlung beim setzen von globalen Hotkeys, um zu GeekEdit
+      zurück zu kehren
+  Dann nicht möglich
+    - Wenn ein GeekEdit abstürzt hängen alle Fenster
+
+- Icon für Application
+- Icon für assozieierte Dateien
+
+- Rechtschreibung mit Aspell
+  - aspell einbinden
+  - Aspell Pipe siehe AspellPipeTest
+
+- Rechtschreibung mit Apsell Dump
+  ---> Textdatei mit einem korrekten deutschen Wort in jeder Zeile
+  - Nachteil: keine Vorschläge!
+
+- Prozedurliste für Java, C & Co
+  - kein Stichwort function, sondern Rückgabetyp oder void
+  - nicht auf Variablendeklarationen hereinfallen!
+
+- Klammerhervorhebung
+  - für alle Syntax-Arten (auch OHNE Syntax)
+  - ' und " ergänzen (einfach in Konstanten aufnehmen reicht nicht)
+
+
+________________________________________________________________________________  
+
++ vermischte Zeilenmbrüche führen zu fehlerhaften Darstellungen
+  --> Beispiel: erst nur #10 und dann irgendwie über PHP-Include andere Datei
+      mit #13#10 eingefügt
+
++ Suchen und Ersetzen funktioniert nur, wenn der Zeilenumbruch DOS ist
+  + evtl. Loesung: Zeilenumbruch von SynEdit nur temporaer umstellen und
+    drauf achten, dass immer DOS ist!  
+  + echte Lösung: SynEdit macht von alleine alles richtig, wenn der
+    Zeilenumbruch auf #13#10 steht.
+
++ Ruby-Syntax und Startkommando
+  + ERB
++ Tastenkombination um Tab als Zeichen einzugeben
+  --> Strg+Tab
++ Caption von MainForm und Application.Title auf Dateiname[*] - GeekEdit setzen.
+  --> [*] wird zu *, wenn ungespeicherte Änderungen
+  --> [*] verschwindet sonst
+
++ Strg+- (DecFontMenu) funktioniert nicht
+  --> hat SynEdit in der Standard-Einstellung da irgendwas drauf?
+  --> liegt jetzt auf Strg+Umsch++
+
++ letztes Zeichen wird eventuell abgeschnitten beim Speichern, wenn der
+  Zeilenumbruch auf Unix gesetzt ist. SynEdit-Bug verschluckt letztes Zeichen,
+  wenn der Zeilenumruch nur aus einem Zeichen besteht.
+
++ bR wird geschlossen -- Prüfung case INsensitive machen  
+
++ Ordner öffnen Strg+Umsch+O, Konsole öffnen Strg+K und Eigenschaften zeigen
+  Strg+Alt+O als Anwendungen realisieren; NICHT als Tools!
+
++ Hilfe auf F1 in den verschiedenen Menüs legen als Script für Programmstart
+
++ RunConsoleApp vernünftig strukturieren und geistreich in hinbekommmen
+
++ Textfeld unter OutputMemo für Eingaben (wie das Crimson auch hat?)
+
++ Prüfung auf Änderung in OnActivate
+
++ Suchen & Ersetzen
+
++ Was passiert, wenn ich gesperrte Dateien (Word!) speichere?
+  --> stürzt das irgendwie definiert ab?
+      --> ja, Fehlermeldung und bleibt trotz CloseQuery geöffnet
+
++ Speichern unter... muss aktuellen Dateinamen anzeigen
+
++ Öffnen von markiertem oder aktuellem Word mit Strg+Click oder Kontextmenü
+  - GeekEdit für alle Dateinamenserweiterungen aus uIO
+    oder ShellExec('open', ...) für URL und unbekannte Dinge
+
++ LEERE Datei öffnen löst komische Fehler aus
+
++ Kontexthilfe HTML auch für JS, CSS, ...
+
++ HTML-Pascal-Script Funktion zum Ersetzen von Entities
+  (nur Hinrichtung)
+  + HTML-eigene Zeichen und deutsche Umlaute
+    + &lt; &gt; &amp; &quot; &auml; &Auml; &ouml; &Ouml; &uuml; &Uuml; &szlig;
+  + alle Zeichen nach &#???;
+
++ Tools
+  + Lineal
+    + MEdit
+  + Prozedurliste
+    + MEdit
+    + Testen und Verbessern
+  + Zeichentabelle
+    + MEdit
+  + ImageMap
+    + MEdit
+  + Farbe
+    + MEdit
+    + Strg+C im Farbmenü
+    + bessere Erkennung, ob mit oder ohne #
+  + HTML-Gerüst
+    + MEdit
+    + einfach nur in den Editor einfügen
+  + Meta-Tags
+    + MEdit
+  + Verzeichnisliste
+    + irgendwie schlau und neu
+    + Windows-Look
+    + Vorschau
