@@ -1,0 +1,60 @@
+               _____           _    ______    _ _ _   
+              / ____|         | |  |  ____|  | (_) |  
+             | |  __  ___  ___| | _| |__   __| |_| |_ 
+             | | |_ |/ _ \/ _ \ |/ /  __| / _` | | __|
+             | |__| |  __/  __/   <| |___| (_| | | |_ 
+              \_____|\___|\___|_|\_\______\__,_|_|\__|
+               malte.schmitz-sh.de/software/geekedit                   
+   
+              (c) Malte Schmitz
+                  http://malte.schmitz-sh.de
+   
+   GeekEdit ist der offizielle Nachfolger von MEdit
+   (http://malte.schmitz-sh.de/software/medit), und hat dementsprechend viele
+   Funktionen, die bereits MEdit enthält. Allerdings hat GeekEdit nicht die
+   gesamte Funktionalität von MEdit übernommen, da einige Funktionen entweder
+   nicht in das Konzept von GeekEdit passen, oder bereits in MEdit nicht
+   sinnvoll vewendet werden konnten. Nur die offline Includes, die leider in
+   der aktuell letzen Version von MEdit nicht mehr fehlerfrei funktionieren
+   werden nicht in GeekEdit enthalten sein, da der Bedarf heute nicht mehr
+   in der Form gegeben ist.
+   
+   weitere Informatioen und Hilfe
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   
+   Immer die aktuelle Version und Dokumentationen von GeekEdit finden sich auf
+   der offiziellen Website http://malte.schmitz-sh.de/software/geekedit          
+             
+   Eintrag im Windows Explorer Kontextmenü
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   
+   Für einen Eintrag im Kontextmenü des Windows Explorers für alle Dateitypen
+   muss in der Registry der Schlüssel
+     HKEY_CLASSES_ROOT\*\shell\GeekEdit
+   angelegt werden und die Zeichenfolge
+     (Standard)
+   muss auf
+     mit GeekEdit öffnen
+   gesetzt werden. Darunter muss der Schlüssel 
+     HKEY_CLASSES_ROOT\*\shell\GeekEdit\command
+   angelegt werden und die Zeichenfolge (Standard) muss auf
+     [Programmpfad}\GeekEdit.exe "%1"
+   gesetzt werden.          
+             
+   verwendete Komponenten
+   ~~~~~~~~~~~~~~~~~~~~~~
+   
+   Die folgenden Komponenten und Quelltexte werden in GeekEdit verwendet.
+   Vielen Dank an die jeweiligen Autoren, dass ich diese hochwertigen
+   Quelltexte kostenlos verwenden kann.
+   
+   * SynEdit (http://synedit.sourceforge.net)
+   * PascalScript ()
+   * ???                            
+   
+   
+
+
+
+______________________
+Die Überschrift wurde mit http://www.network-science.de/ascii/ erstellt.   
